@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">TicTacToyApp</string>
+    <string name="restart">RESTART</string>
+</resources>

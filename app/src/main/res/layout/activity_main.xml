@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/restart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/restart"
+        android:background="@color/blue"
+        app:layout_constraintBottom_toTopOf="@+id/tableLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TableLayout
+        android:id="@+id/tableLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="80dp"
+        android:layout_marginBottom="80dp"
+        android:background="#4CAF50"
+        android:gravity="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:context=".MainActivity"
+        tools:layout_editor_absoluteX="0dp">
+
+        <TableRow
+            style="?android:attr/buttonBarStyle"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="3pt"
+            android:background="#4CAF50"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/b1"
+                android:layout_width="40pt"
+                android:layout_height="40pt"
+                android:layout_marginLeft="3pt"
+                android:onClick="bnClick" />
+
+            <Button
+                android:id="@+id/b2"
+                android:layout_width="40pt"
+                android:layout_height="40pt"
+                android:layout_marginLeft="3pt"
+                android:onClick="bnClick" />
+
+            <Button
+                android:id="@+id/b3"
+                android:layout_width="40pt"
+                android:layout_height="40pt"
+                android:layout_marginLeft="3pt"
+                android:onClick="bnClick" />
+        </TableRow>
+
+        <TableRow
+            style="?android:attr/buttonBarStyle"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="3pt"
+            android:background="#4CAF50"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/b4"
+                android:layout_width="40pt"
+                android:layout_height="40pt"
+                android:layout_marginLeft="3pt"
+                android:onClick="bnClick" />
+
+            <Button
+                android:id="@+id/b5"
+                android:layout_width="40pt"
+                android:layout_height="40pt"
+                android:layout_marginLeft="3pt"
+                android:onClick="bnClick" />
+
+            <Button
+                android:id="@+id/b6"
+                android:layout_width="40pt"
+                android:layout_height="40pt"
+                android:layout_marginLeft="3pt"
+                android:onClick="bnClick" />
+        </TableRow>
+
+        <TableRow
+            style="?android:attr/buttonBarStyle"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="3pt"
+            android:background="#4CAF50"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/b7"
+                android:layout_width="40pt"
+                android:layout_height="40pt"
+                android:layout_marginLeft="3pt"
+                android:onClick="bnClick" />
+
+            <Button
+                android:id="@+id/b8"
+                android:layout_width="40pt"
+                android:layout_height="40pt"
+                android:layout_marginLeft="3pt"
+                android:onClick="bnClick" />
+
+            <Button
+                android:id="@+id/b9"
+                android:layout_width="40pt"
+                android:layout_height="40pt"
+                android:layout_marginLeft="3pt"
+                android:onClick="bnClick" />
+        </TableRow>
+    </TableLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
